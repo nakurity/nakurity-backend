@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/neuro-os/vision",
+      "dest": "/api/vision.js"
+    }
+  ],
+  "env": {
+    "GROQ_API_KEY": "@groq-api-key",
+    "NEURO_OS_API_KEY": "@neuro-os-api-key"
+  }
+}
