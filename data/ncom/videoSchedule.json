@@ -1,4 +1,11 @@
 [
   { "videoIndex": 0, "delay": 45000 },
-  { "videoIndex": 1, "delay": 120000 }
+  { "videoIndex": 1, "delay": 120000 },
+  { "videoIndex": 2, "delay": 180000 },
+  { "videoIndex": 3, "delay": 240000 },
+  { "videoIndex": 4, "delay": 300000 },
+  { "videoIndex": 5, "delay": 360000 },
+  { "videoIndex": 6, "delay": 420000 },
+  { "videoIndex": 7, "delay": 480000 },
+  { "videoIndex": 8, "delay": 540000 }
 ]
