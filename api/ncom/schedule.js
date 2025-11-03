@@ -63,6 +63,16 @@ const saveSchedule = (schedule, nextRefresh) => {
 };
 
 export default function handler(req, res) {
+  // --- ✅ CORS headers added here ---
+  res.setHeader('Access-Control-Allow-Origin', 'https://nakurity.com');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  // Handle preflight requests (important for browsers)
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+
   ensureDir(dataDir);
 
   let data = loadSchedule();
