@@ -1,11 +1,23 @@
 [
-  { "videoIndex": 0, "delay": 45000 },
-  { "videoIndex": 1, "delay": 120000 },
-  { "videoIndex": 2, "delay": 180000 },
-  { "videoIndex": 3, "delay": 240000 },
-  { "videoIndex": 4, "delay": 300000 },
-  { "videoIndex": 5, "delay": 360000 },
-  { "videoIndex": 6, "delay": 420000 },
-  { "videoIndex": 7, "delay": 480000 },
-  { "videoIndex": 8, "delay": 540000 }
+      { 
+        "id": "Vm5NBjdeCgc", 
+        "title": "Neuro & Evil – Space Oddity (Fanmade Acoustic Version)", 
+        "author": "Neuro21 Clip Team [Neuro-sama CN Clipper]", 
+        "link": "https://youtu.be/Vm5NBjdeCgc", 
+        "channel": "https://www.youtube.com/@Neuro21ClipTeam"
+      },
+      { 
+        "id": "OnkXWkvLSkc", 
+        "title": "【Epic Orchestral Cover】GODS - Neuro & Evil (NewJeans)", 
+        "author": "@Neuro21ClipTeam", 
+        "link": "https://www.youtube.com/watch?v=OnkXWkvLSkc", 
+        "channel": "https://www.youtube.com/@Neuro21ClipTeam" 
+      },
+      {
+        "id": "sh5qYoIY4o0",
+        "title": "【Epic Rock Cover】GOLDEN - Neuro & Evil (K-Pop Demon Hunters | HUNTR/X)",
+        "author": "@Neuro21ClipTeam",
+        "link": "https://www.youtube.com/watch?v=sh5qYoIY4o0",
+        "channel": "https://www.youtube.com/@Neuro21ClipTeam"
+      }
 ]
