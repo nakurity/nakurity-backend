@@ -8,12 +8,16 @@
   ],
   "routes": [
     {
-      "src": "/neuro-os/vision",
-      "dest": "/api/vision.js"
+      "src": "/api/session/(.*)",
+      "dest": "/api/vbackend/session.js"
+    },
+    {
+      "src": "/api/neuro-os/vision",
+      "dest": "/api/vbackend/vision.js"
+    },
+    {
+      "src": "/api/ncom/schedule",
+      "dest": "/api/ncom/schedule.js"
     }
-  ],
-  "env": {
-    "GROQ_API_KEY": "@groq-api-key",
-    "NEURO_OS_API_KEY": "@neuro-os-api-key"
-  }
+  ]
 }
